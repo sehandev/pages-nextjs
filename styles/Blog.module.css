@@ -1,0 +1,25 @@
+.footer {
+  max-width: 768px;
+  margin: 2rem auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 2rem;
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 32rem;
+}
+
+.page {
+  width: 2rem;
+}

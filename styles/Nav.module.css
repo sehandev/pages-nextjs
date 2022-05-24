@@ -1,0 +1,14 @@
+.nav-bar {
+  display: flex;
+  flex: 1;
+  gap: 0 1rem;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 2rem;
+}
+
+.nav-button {
+  font-size: 1rem;
+  font-weight: 500;
+}
