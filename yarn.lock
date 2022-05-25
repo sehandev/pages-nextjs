@@ -1773,6 +1773,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pages-nextjs@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "pages-nextjs@workspace:."
+  dependencies:
+    "@types/node": 17.0.35
+    "@types/react": 18.0.9
+    "@types/react-dom": 18.0.4
+    eslint: 8.16.0
+    eslint-config-next: 12.1.6
+    next: 12.1.6
+    react: 18.1.0
+    react-dom: 18.1.0
+    react-icons: ^4.3.1
+    typescript: 4.6.4
+  languageName: unknown
+  linkType: soft
+
 "parent-module@npm:^1.0.0":
   version: 1.0.1
   resolution: "parent-module@npm:1.0.1"
@@ -2024,23 +2041,6 @@ __metadata:
   checksum: a8ef5cab769c020cd6382ad9ecc3f72dbde56a50a36639b3a42ad9c11f7724f03700bcad373044059b8067d4a6365154dc7c0ca8027ef20ff4900cf58a0fc2c5
   languageName: node
   linkType: hard
-
-"sehandev.github.io@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sehandev.github.io@workspace:."
-  dependencies:
-    "@types/node": 17.0.35
-    "@types/react": 18.0.9
-    "@types/react-dom": 18.0.4
-    eslint: 8.16.0
-    eslint-config-next: 12.1.6
-    next: 12.1.6
-    react: 18.1.0
-    react-dom: 18.1.0
-    react-icons: ^4.3.1
-    typescript: 4.6.4
-  languageName: unknown
-  linkType: soft
 
 "semver@npm:^6.3.0":
   version: 6.3.0
