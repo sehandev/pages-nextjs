@@ -6,9 +6,6 @@ type NavProps = {}
 const Nav: FC<NavProps> = () => {
   return (
     <nav id="top" className={styles["nav-bar"]}>
-      <Link href="#top">
-        <a className={styles["nav-button"]}>Home</a>
-      </Link>
       <Link href="#skills">
         <a className={styles["nav-button"]}>Skills</a>
       </Link>

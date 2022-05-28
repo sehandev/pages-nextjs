@@ -1,6 +1,5 @@
 .keywords {
-  margin: 0 auto 4rem auto;
-  max-width: 42rem;
+  margin: 0 auto 2rem auto;
   width: 100%;
 }
 
@@ -13,8 +12,62 @@
 }
 
 .name {
-  font-size: 4rem;
-  line-height: 1;
+  font-size: 3rem;
+  font-weight: 600;
   margin: 0 0 4rem 0;
   text-align: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 8rem;
+  padding: 1rem 0;
+}
+
+.skill-text {
+  align-items: flex-end;
+  display: flex;
+  height: 4rem;
+  justify-content: center;
+  padding: 0.5rem 0;
+  width: 6rem;
+}
+
+.skill-logo {
+  width: 2.5rem;
+  margin: 0 auto;
+}
+
+.skill-logo-large {
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.skill-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.skill-title {
+  font-size: 1.5rem;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.skills > div:not(:last-child) {
+  border-right: solid 1px #d2d2d7;
+}
+
+.title {
+  font-size: 2rem;
+  padding: 2rem 0;
 }
