@@ -209,15 +209,13 @@ const Home: NextPage = () => {
         <h1 className={styles.title} id="publications">
           Publications
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div className={styles["publication"]}>
+          <h2>문장에 포함된 외국어의 자연스러운 발음 표현을 위한 LSTM 방법</h2>
+          <p>
+            <span className={styles.me}>김성돈</span>, 정재희
+          </p>
+          <p>정보처리학회논문지 2019</p>
+        </div>
         <h1 className={styles.title} id="posts">
           Recent Posts
         </h1>

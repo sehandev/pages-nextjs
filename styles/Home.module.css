@@ -71,3 +71,15 @@
   font-size: 2rem;
   padding: 2rem 0;
 }
+
+.publication h2 {
+  font-weight: 600;
+}
+
+.publication p {
+  margin: 0.5rem 0;
+}
+
+.me {
+  font-weight: 600;
+}
